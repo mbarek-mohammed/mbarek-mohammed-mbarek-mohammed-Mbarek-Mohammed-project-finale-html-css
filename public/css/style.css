@@ -8,3 +8,54 @@
     --paper: #fffaf5;
     --white: #fff
 }
+
+.video-section {
+  margin: 0 6vw 4rem;
+  padding: 2rem;
+  color: #fff;
+  background: #2b1200;
+  border: 2px solid #2b1200;
+  border-radius: 28px;
+  box-shadow: 7px 7px 0 #ffd23f;
+}
+
+.video-section h2 {
+  margin: 0 0 .6rem;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1;
+  font-weight: 800;
+}
+
+.video-section .video-intro {
+  max-width: 700px;
+  margin: 0 0 1.4rem;
+  font-size: 1.1rem;
+}
+
+.video-frame {
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fffaf5;
+  padding: 12px;
+}
+
+.video-frame iframe {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  border-radius: 12px;
+  background: #120900;
+}
+
+.video-caption {
+  margin-top: .9rem;
+  color: #ffd23f;
+  font-size: .9rem;
+}
+
+@media(max-width:600px) {
+  .video-section {
+    margin: 0 5vw 3rem;
+    padding: 1.2rem;
+  }
+}
