@@ -1,13 +1,7 @@
 * {
     box-sizing: border-box
 }
-:root {
-    --orange: #ff7a00;
-    --yellow: #ffd23f;
-    --brown: #2b1200;
-    --paper: #fffaf5;
-    --white: #fff
-}
+
 
 .video-section {
   margin: 0 6vw 4rem;
