@@ -303,12 +303,6 @@
   .bg-\[\#2b1200\] {
     background-color: #2b1200;
   }
-  .bg-\[\#25213A\] {
-    background-color: #25213A;
-  }
-  .bg-\[\#111111\] {
-    background-color: #111111;
-  }
   .bg-\[\#F5E6D3\] {
     background-color: #F5E6D3;
   }
@@ -317,6 +311,12 @@
   }
   .bg-\[\#ffd23f\] {
     background-color: #ffd23f;
+  }
+  .bg-\[\#fffff\] {
+    background-color: #fffff;
+  }
+  .bg-\[\#ffffff\] {
+    background-color: #ffffff;
   }
   .bg-white {
     background-color: var(--color-white);
