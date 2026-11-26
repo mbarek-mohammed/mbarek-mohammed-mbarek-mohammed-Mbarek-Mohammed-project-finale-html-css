@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,10 @@
   <link href="../css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./public/pages/Agir.html">
   <link rel="stylesheet" href="../../index.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body class="bg-[#F5E6D3] font-sans text-[#2b1200]">
@@ -143,13 +147,71 @@
         </div>
       </div>
     </section>
+    
+    <section class="px-[7vw] pb-16">
+      <h2 class="mb-4 text-4xl font-extrabold md:text-5xl">Est-ce que c’est mon cas ?</h2>
+      <p class="mb-8 max-w-3xl text-xl">Si vous répondez « oui » à plusieurs de ces questions, il est peut-être temps
+        d’en parler.</p>
+      <div class="grid max-w-4xl gap-3">
+        <label class="flex cursor-pointer items-center gap-4 rounded-2xl border-2 border-[#2b1200] bg-white p-4">
+          <input type="checkbox" class="checkbox checkbox-warning" />
+          <span>Je dois demander la permission pour chaque dépense.</span>
+        </label>
+        <label class="flex cursor-pointer items-center gap-4 rounded-2xl border-2 border-[#2b1200] bg-white p-4">
+          <input type="checkbox" class="checkbox checkbox-warning" />
+          <span>Je n’ai pas accès à mon compte bancaire ou à mon salaire.</span>
+        </label>
+        <label class="flex cursor-pointer items-center gap-4 rounded-2xl border-2 border-[#2b1200] bg-white p-4">
+          <input type="checkbox" class="checkbox checkbox-warning" />
+          <span>On m’empêche de travailler ou d’étudier.</span>
+        </label>
+        <label class="flex cursor-pointer items-center gap-4 rounded-2xl border-2 border-[#2b1200] bg-white p-4">
+          <input type="checkbox" class="checkbox checkbox-warning" />
+          <span>J’ai signé des documents ou des dettes sans comprendre ou sans avoir le choix.</span>
+        </label>
+        <label class="flex cursor-pointer items-center gap-4 rounded-2xl border-2 border-[#2b1200] bg-white p-4">
+          <input type="checkbox" class="checkbox checkbox-warning" />
+          <span>Je dois justifier chaque achat et chaque reçu.</span>
+        </label>
+        <label class="flex cursor-pointer items-center gap-4 rounded-2xl border-2 border-[#2b1200] bg-white p-4">
+          <input type="checkbox" class="checkbox checkbox-warning" />
+          <span>Je ne peux pas mettre d’argent de côté.</span>
+        </label>
+      </div>
+    </section>
+
+    <section class="px-[7vw] pb-16">
+      <h2 class="mb-8 text-4xl font-extrabold md:text-5xl">Mythes et réalités</h2>
+      <div class="grid gap-5 md:grid-cols-2">
+        <article class="rounded-3xl border-2 border-[#2b1200] bg-white p-6 shadow-[6px_6px_0_#2b1200]">
+          <p class="font-extrabold text-[#ff7a00]">MYTHE</p>
+          <p class="mb-4 text-xl font-bold">« C’est normal que l’un gère l’argent du couple. »</p>
+          <p class="font-extrabold">RÉALITÉ</p>
+          <p>Gérer ensemble, oui. Contrôler seul et interdire l’accès à l’autre, non.</p>
+        </article>
+        <article class="rounded-3xl border-2 border-[#2b1200] bg-[#ffd23f] p-6 shadow-[6px_6px_0_#2b1200]">
+          <p class="font-extrabold text-[#ff7a00]">MYTHE</p>
+          <p class="mb-4 text-xl font-bold">« Il ne me frappe pas, donc ce n’est pas de la violence. »</p>
+          <p class="font-extrabold">RÉALITÉ</p>
+          <p>La violence peut être économique, psychologique ou verbale, même sans coups.</p>
+        </article>
+      </div>
+    </section>
+
+    <section
+      class="mx-[6vw] mb-16 flex flex-wrap items-center justify-between gap-5 rounded-3xl bg-[#2b1200] p-8 text-white">
+      <h2 class="max-w-2xl text-3xl font-extrabold">Reconnaître les signes, c’est le premier pas. Voyons maintenant
+        comment agir.</h2>
+      <a class="rounded-xl bg-[#ffd23f] px-6 py-3 font-bold text-[#2b1200] hover:scale-105" href="./Agir.html">Passer à
+        l’action</a>
+    </section>
   </main>
   <footer class="flex flex-wrap justify-between gap-3 bg-[#2b1200] px-[6vw] py-7 font-bold text-[#ffffff]">
     <h1 class="mb-6 text-[#ffffff]    font-extrabold  px-2 py-3 rounded-full">MON ARGENT,MA LIBERTÉ<br>
       <span class="text-[#ffd23f] text-xs">Sensibiliser à la violence économique et au contrôle financier envers les
         femmes.</span>
     </h1>
-    <p class="text-[#ffd23f] text-xs">© 2026 Mon Argent,Ma Liberté-Tous droits réservés.</p>
+    <p class="text-[#ffd23f] text-xs">© 2026 Mon Argent, Ma Liberté-Tous droits réservés.</p>
   </footer>
 </body>
 

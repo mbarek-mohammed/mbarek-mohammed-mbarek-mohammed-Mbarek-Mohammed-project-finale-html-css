@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+}

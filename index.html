@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
@@ -9,6 +9,10 @@
   <link href="./public/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./public/pages/Comprendre.html">
   <link rel="stylesheet" href="./public/pages/Agir.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body class="bg-[#F5E6D3] font-sans text-[#2b1200]">
@@ -25,24 +29,25 @@
           href="./index.html">Accueil</a>
         <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
           href="./public/pages/Comprendre.html">Comprendre</a>
-        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] " href="./public/pages/Agir.html">Agir</a>
+        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
+          href="./public/pages/Agir.html">Agir</a>
         <div class="flex">
-        <a class="rounded-xl bg-[#2b1200] px-4 py-2 text-white" href="./public/pages/Agir.html">SOS</a>
-        <div class="navbar-start">
-          <div class="dropdown lg:hidden">
-            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-              <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
-              </svg>
+          <a class="rounded-xl bg-[#2b1200] px-4 py-2 text-white" href="./public/pages/Agir.html">SOS</a>
+          <div class="navbar-start">
+            <div class="dropdown lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+              </div>
+              <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./public/pages/Comprendre.html">Comprendre</a></li>
+                <li><a href="./public/pages/Agir.html">Agir</a></li>
+              </ul>
             </div>
-            <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li><a href="./index.html">Accueil</a></li>
-              <li><a href="./public/pages/Comprendre.html">Comprendre</a></li>
-              <li><a href="./public/pages/Agir.html">Agir</a></li>
-            </ul>
           </div>
-        </div>
         </div>
       </div>
 
@@ -52,14 +57,13 @@
     <section
       class="grid items-center gap-8 rounded-b-[42px] bg-[#ff7a00] px-[7vw] py-16 text-white md:grid-cols-[1.2fr_.8fr]">
       <div>
-        <p class="mb-5 font-bold tracking-widest">HER MONEY. HER FREEDOM.</p>
         <h1 class="mb-6 text-[clamp(3rem,8vw,6.8rem)] font-extrabold leading-[.92] tracking-tight">Mon Argent,<br>Ma
           <span class="text-[#2b1200]">Liberté.</span>
         </h1>
         <p class="mb-6 max-w-2xl text-xl">Et si le contrôle de l’argent était aussi une forme de violence ? Son argent.
           Sa liberté. Chaque femme doit pouvoir choisir, travailler et décider de son avenir.</p>
         <a class="inline-block rounded-xl bg-[#ffd23f] px-6 py-3 font-bold text-[#2b1200] hover:scale-105"
-          href="#video">Voir le video</a>
+          href="#video">Voir la video</a>
       </div>
       <div
         class="mx-auto grid h-64 w-64 overflow-hidden place-items-center rounded-[45%_45%_24px_24px] border-4 border-[#2b1200] bg-[#ffd23f]  shadow-[10px_10px_0_#2b1200] lg:h-120 lg:w-120">
@@ -85,7 +89,7 @@
     </section>
     <section id="video" class="video-section">
       <h2>LE PRIX DU SILENCE</h2>
-      <p class="video-intro">Un video sur la violence économique et le contrôle financier : une femme gagne de l’argent,
+      <p class="video-intro">Une video sur la violence économique et le contrôle financier : une femme gagne de l’argent,
         mais ne peut pas décider librement de son utilisation.</p>
       <div class="video-frame">
         <iframe src="https://www.youtube.com/embed/b87veDm4sL4" title="LE PRIX DU SILENCE"
@@ -142,7 +146,7 @@
       <span class="text-[#ffd23f] text-xs">Sensibiliser à la violence économique et au contrôle financier envers les
         femmes.</span>
     </h1>
-    <p class="text-[#ffd23f] text-xs">© 2026 Mon Argent,Ma Liberté-Tous droits réservés.</p>
+    <p class="text-[#ffd23f] text-xs">© 2026 Mon Argent, Ma Liberté-Tous droits réservés.</p>
   </footer>
 </body>
 
