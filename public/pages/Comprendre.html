@@ -2,37 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Argent, Ma Liberté</title>
-    <link href="../css/output.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="./public/pages/Agir.html">
-    <link rel="stylesheet" href="../../index.html">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Argent, Ma Liberté</title>
+  <link href="../css/output.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="./public/pages/Agir.html">
+  <link rel="stylesheet" href="../../index.html">
 </head>
 
 <body class="bg-[#F5E6D3] font-sans text-[#2b1200]">
-
+  <header>
     <nav class="flex flex-wrap items-center justify-between gap-4 bg-[#ff7a00] px-[6vw] py-5 text-white">
-    <div class="flex items-center gap-3">
-        <img src="../images/logo.png" class="h-10 w-10" alt="" >
-        <a class="text-lg font-extrabold leading-none" href="./index.html"> MON ARGENT,<br>MA LIBERTÉ</a>
+
+      <div class="flex items-center gap-3">
+        <img src="../images/logo.png" class="h-10 w-10" alt="">
+        <a class="text-lg font-extrabold leading-none" href="../../index.html"> MON ARGENT,<br>MA LIBERTÉ</a>
       </div>
-    <div class="flex flex-wrap items-center gap-2 text-sm font-bold">
-      <a class="rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
-        href="../../index.html">Accueil</a>
-      <a class="rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] bg-white !text-[#ff7a00]" href="./Comprendre.html">Comprendre</a>
-      <a class="rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] " href="./Agir.html">Agir</a>
-      <a class="rounded-xl bg-[#2b1200] px-4 py-2 text-white" href="./Agir.html">SOS</a>
-    </div>
-  </nav>
-  <section
+
+      <div class="flex flex-wrap items-center gap-2 text-sm font-bold">
+        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
+          href="../../index.html">Accueil</a>
+        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] bg-white !text-[#ff7a00]"
+          href="./Comprendre.html">Comprendre</a>
+        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
+          href="./Agir.html">Agir</a>
+        <div class="flex">
+          <a class="rounded-xl bg-[#2b1200] px-4 py-2 text-white" href="./Agir.html">SOS</a>
+          <div class="navbar-start">
+            <div class="dropdown lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                </svg>
+              </div>
+              <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="./Comprendre.html">Comprendre</a></li>
+                <li><a href="./Agir.html">Agir</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <section
       class="grid items-center gap-8 rounded-b-[42px] bg-[#ff7a00] px-[7vw] py-16 text-white md:grid-cols-[1.2fr_.8fr]">
       <div>
-        <h1 class="mb-6 text-[clamp(3rem,8vw,6.8rem)] font-extrabold leading-[.92] tracking-tight">Reconnaître <br>les signes </h1>
-        <p class="mb-6 max-w-2xl text-xl">Le contrôle financier n'est pas toujours évident. Il peut commencer par de petites restrictions ...</p>
-        
-      </div> 
+        <h1 class="mb-6 text-[clamp(3rem,8vw,6.8rem)] font-extrabold leading-[.92] tracking-tight">Reconnaître <br>les
+          signes </h1>
+        <p class="mb-6 max-w-2xl text-xl">Le contrôle financier n'est pas toujours évident. Il peut commencer par de
+          petites restrictions ...</p>
+
+      </div>
       <div
         class="mx-auto grid h-64 w-64 overflow-hidden place-items-center rounded-[45%_45%_24px_24px] border-4 border-[#2b1200] bg-[#ffd23f]  shadow-[10px_10px_0_#2b1200] lg:h-120 lg:w-120">
         <img src="../images/333333333.png" alt="">
@@ -62,7 +88,7 @@
           <a href="#">
             <h5 class="my-3 text-2xl font-extrabold">Sabotage professionnel</h5>
           </a>
-          <p>Empêcher de travailler, de postuler à un emploi ou de poursuivre ses études.</p> 
+          <p>Empêcher de travailler, de postuler à un emploi ou de poursuivre ses études.</p>
 
         </article>
         <article class="rounded-3xl border-2 border-[#2b1200] bg-[#ff7a00] p-6 shadow-[6px_6px_0_#2b1200]">
@@ -70,7 +96,7 @@
           <a href="#">
             <h5 class="my-3 text-2xl font-extrabold">Endettement forcé</h5>
           </a>
-          <p>Forcer à contracter des dettes ou à signer des documents sans consentement.</p> 
+          <p>Forcer à contracter des dettes ou à signer des documents sans consentement.</p>
 
         </article>
         <article class="rounded-3xl border-2 border-[#2b1200] bg-[#ffd23f] p-6 shadow-[6px_6px_0_#2b1200]">
@@ -78,7 +104,7 @@
           <a href="#">
             <h5 class="my-3 text-2xl font-extrabold">Surveillance excessive</h5>
           </a>
-          <p>Contrôler chaque dépense, chaque achat et chaque reçu.</p> 
+          <p>Contrôler chaque dépense, chaque achat et chaque reçu.</p>
 
         </article>
         <article class="rounded-3xl border-2 border-[#2b1200] bg-[#ffffff] p-6 shadow-[6px_6px_0_#2b1200]">
@@ -86,12 +112,12 @@
           <a href="#">
             <h5 class="my-3 text-2xl font-extrabold">Dépendance financière</h5>
           </a>
-          <p>Rendre impossible l’épargne et toute forme d’indépendance.</p> 
+          <p>Rendre impossible l’épargne et toute forme d’indépendance.</p>
 
         </article>
       </div>
     </section>
-     <section class="px-[7vw] pb-16">
+    <section class="px-[7vw] pb-16">
       <h2 class="mb-8 text-4xl font-extrabold md:text-5xl">Comment ça s’installe</h2>
       <div class="grid max-w-4xl gap-4">
         <div class="flex gap-4 rounded-2xl border-2 border-brownBrand bg-white p-5"><span
@@ -117,10 +143,12 @@
         </div>
       </div>
     </section>
-
-    <footer class="flex flex-wrap justify-between gap-3 bg-[#2b1200] px-[6vw] py-7 font-bold text-[#ffffff]">
+  </main>
+  <footer class="flex flex-wrap justify-between gap-3 bg-[#2b1200] px-[6vw] py-7 font-bold text-[#ffffff]">
     <h1 class="mb-6 text-[#ffffff]    font-extrabold  px-2 py-3 rounded-full">MON ARGENT,MA LIBERTÉ<br>
-          <span class="text-[#ffd23f] text-xs">Sensibiliser à la violence économique et au contrôle financier envers les femmes.</span></h1>
+      <span class="text-[#ffd23f] text-xs">Sensibiliser à la violence économique et au contrôle financier envers les
+        femmes.</span>
+    </h1>
     <p class="text-[#ffd23f] text-xs">© 2026 Mon Argent,Ma Liberté-Tous droits réservés.</p>
   </footer>
 </body>
