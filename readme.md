@@ -2,7 +2,7 @@
  
 Site de sensibilisation à la **violence économique** et au **contrôle financier** envers les femmes.
  
-> *Her money. Her freedom.* Chaque femme doit pouvoir choisir, travailler et décider de son avenir.
+ "MON ARGENT,MA LIBERTÉ " Chaque femme doit pouvoir choisir, travailler et décider de son avenir.
  
 ## Objectif
  
@@ -14,14 +14,15 @@ Aider à reconnaître les signes du contrôle financier, comprendre comment il s
 |------------|--------------------------------|----------------------------------------------------------------|
 | Accueil    | `index.html`                   | Présentation, vidéo « Le prix du silence », pourquoi en parler |
 | Comprendre | `public/pages/Comprendre.html` | Les six formes de contrôle, comment ça s'installe              |
-| Agir       | `public/pages/Agir.html`       | Premières démarches, FAQ, ressources d'aide (SOS)              |
+| Agir       | `public/pages/Agir.html`       | Premières démarches, FAQ                                       |
  
 ## Technologies
  
 - HTML5
 - [Tailwind CSS](https://tailwindcss.com/) v4
-- [daisyUI](https://daisyui.com/) v5 (menu mobile, accordéon FAQ)
+- [daisyUI](https://daisyui.com/) v5 ( accordéon FAQ)
 - CSS personnalisé (`style.css`) pour la section vidéo
+- [Flowbite](https://flowbite.com/) v4 (menu mobile)
 
 ## Installation
  
@@ -60,4 +61,4 @@ Ensuite, ouvrez `index.html` dans le navigateur (ou utilisez l'extension *Live S
 - Images : illustrations et visuels du projet
 ## Auteur
  
-Projet réalisé par MBAREK-MOHAMMED — © 2026 Mon Argent, Ma Liberté. Tous droits réservés.
+Projet réalisé par [MBAREK-MOHAMMED] — © 2026 Mon Argent, Ma Liberté. Tous droits réservés.

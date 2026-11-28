@@ -17,41 +17,56 @@
 
 <body class="bg-[#F5E6D3] font-sans text-[#2b1200]">
   <header>
-    <nav class="flex flex-wrap items-center justify-between gap-4 bg-[#ff7a00] px-[6vw] py-5 text-white">
 
-      <div class="flex items-center gap-3">
-        <img src="./public/images/logo.png" class="h-10 w-10" alt="">
-        <a class="text-lg font-extrabold leading-none" href="./index.html"> MON ARGENT,<br>MA LIBERTÉ</a>
-      </div>
+<nav class="flex flex-wrap items-center justify-between gap-4 bg-[#ff7a00] px-[6vw] py-5 text-white">
+  <div class="flex items-center gap-3">
+    <img src="./public/images/logo.png" class="h-10 w-10" alt="Logo">
+    <a class="text-lg font-extrabold leading-none" href="./index.html">MON ARGENT,<br>MA LIBERTÉ </a>
+  </div>
+  <div class="flex items-center gap-2 text-sm font-bold">
+    <div class="hidden lg:flex items-center gap-2">
+      <a class="rounded-full bg-white px-4 py-2 !text-[#ff7a00]" href="./index.html">Accueil </a>
+      <a class="rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00]" href="./public/pages/Comprendre.html">Comprendre </a>
+      <a class="rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00]" href="./public/pages/Agir.html">Agir</a>
+    </div>
+    <button
+      data-collapse-toggle="navbar-default"
+      type="button"
+      class="inline-flex items-center justify-center rounded-lg p-2 lg:hidden hover:bg-white/20"
+      aria-controls="navbar-default"
+      aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-7 h-7"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-width="2"
+          d="M5 7h14M5 12h14M5 17h14"
+        />
+      </svg>
+    </button>
+  </div>
+  <div class="hidden w-full lg:hidden" id="navbar-default">
+    <ul class="flex flex-col gap-3 border-t border-white/30 pt-4">
+      <li>
+        <a href="./index.html" class="block rounded-lg p-2 bg-white !text-[#ff7a00] hover:bg-white/20"> Accueil </a>
+      </li>
+      <li>
+        <a href="./public/pages/Comprendre.html" class="block rounded-lg p-2 hover:bg-white/20"> Comprendre </a>
+      </li>
+      <li>
+        <a href="./public/pages/Agir.html" class="block rounded-lg p-2 hover:bg-white/20">Agir </a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-      <div class="flex flex-wrap items-center gap-2 text-sm font-bold">
-        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] bg-white !text-[#ff7a00]"
-          href="./index.html">Accueil</a>
-        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
-          href="./public/pages/Comprendre.html">Comprendre</a>
-        <a class="hidden lg:block rounded-full px-4 py-2 hover:bg-white hover:text-[#ff7a00] "
-          href="./public/pages/Agir.html">Agir</a>
-        <div class="flex">
-          <a class="rounded-xl bg-[#2b1200] px-4 py-2 text-white" href="./public/pages/Agir.html">SOS</a>
-          <div class="navbar-start">
-            <div class="dropdown lg:hidden">
-              <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                <svg aria-label="Menu" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
-                </svg>
-              </div>
-              <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                <li><a href="./index.html">Accueil</a></li>
-                <li><a href="./public/pages/Comprendre.html">Comprendre</a></li>
-                <li><a href="./public/pages/Agir.html">Agir</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    </nav>
   </header>
   <main>
     <section
@@ -89,7 +104,8 @@
     </section>
     <section id="video" class="video-section">
       <h2>LE PRIX DU SILENCE</h2>
-      <p class="video-intro">Une video sur la violence économique et le contrôle financier : une femme gagne de l’argent,
+      <p class="video-intro">Une video sur la violence économique et le contrôle financier : une femme gagne de
+        l’argent,
         mais ne peut pas décider librement de son utilisation.</p>
       <div class="video-frame">
         <iframe src="https://www.youtube.com/embed/b87veDm4sL4" title="LE PRIX DU SILENCE"
@@ -135,7 +151,7 @@
         class="h-92 w-92 shrink rounded-[45%_45%_24px_24px] border-4 border-[#ffd23f] shadow-[10px_10px_0_#ffd23f]">
       <div class="flex flex-col gap-4">
         <h2 class="max-w-2xl text-3xl font-extrabold">Comprendre les signes, c’est déjà commencer à agir.</h2>
-        <a class="rounded-xl bg-[#ffd23f] w-fit px-6 py-3 font-bold text-[#2b1200]"
+        <a class="rounded-xl bg-[#ffd23f] w-fit px-6 py-3 font-bold text-[#2b1200] hover:scale-105"
           href="./public/pages/Comprendre.html">Découvrir les formes</a>
       </div>
     </section>
@@ -148,6 +164,10 @@
     </h1>
     <p class="text-[#ffd23f] text-xs">© 2026 Mon Argent, Ma Liberté-Tous droits réservés.</p>
   </footer>
+
+
+
+  <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>

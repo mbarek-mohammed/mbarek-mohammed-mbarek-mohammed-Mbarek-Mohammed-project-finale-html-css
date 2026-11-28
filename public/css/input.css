@@ -1,5 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
 
 @theme {
   --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;

@@ -4,7 +4,6 @@
 
 
 .video-section {
-  margin: 0 6vw 4rem;
   padding: 2rem;
   color: #fff;
   background: #2b1200;
@@ -14,7 +13,6 @@
 }
 
 .video-section h2 {
-  margin: 0 0 .6rem;
   font-size: clamp(2rem, 5vw, 3.4rem);
   line-height: 1;
   font-weight: 800;
@@ -22,8 +20,8 @@
 
 .video-section .video-intro {
   max-width: 700px;
-  margin: 0 0 1.4rem;
   font-size: 1.1rem;
+  padding-bottom: 1rem;
 }
 
 .video-frame {
@@ -43,14 +41,12 @@
 }
 
 .video-caption {
-  margin-top: .9rem;
   color: #ffd23f;
   font-size: .9rem;
 }
 
 @media(max-width:600px) {
   .video-section {
-    margin: 0 5vw 3rem;
     padding: 1.2rem;
   }
 }
